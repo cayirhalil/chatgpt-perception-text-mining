@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- Data (large / licensed — keep out of git) ----
+data/
+*.csv
+*.tsv
+*.parquet
+!requirements.txt
+
+# ---- Models & caches ----
+*.pkl
+*.joblib
+*.model
+.cache/
+nltk_data/
+
+# ---- spaCy / transformers downloads ----
+*.whl
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- Logs & temp ----
+*.log
+tmp/
+*.tmp
+
+# ---- Environment secrets ----
+.env
+.env.*
